@@ -21,6 +21,7 @@ header{
     width: 100%;
     margin: 0 auto;
     padding: 0 17px;
+    position: relative;
 }
 .h-flex img{
     width: 95px;
@@ -33,6 +34,9 @@ nav a{
     display: flex;
     gap: 30px;
     flex-wrap: wrap;
+    font-family: "BPG Nino Mkhedruli Book", sans-serif;
+    font-size: 16px;
+    color: #FFFFFF;
 }
 .h-flex{
     display: flex;
@@ -45,4 +49,49 @@ nav a{
    background-color: white;
    margin-left: 10px;
    border: 8px solid white;
+}
+.box{
+    background-color: #F9F9F9;
+    width: 70px;
+    height: 70px;
+}
+.wrapper div:nth-child(2) .box{
+    background-color: #0A22F4;
+}
+.wrapper{
+    display: flex;
+    column-gap: 30px;
+}
+.section1{
+    margin-top:100px;
+}
+.section1 h2{
+    position: absolute;
+    left:-2;
+    top: -70px;
+    color: #171717;
+    font-family: "BPG Nino Mkhedruli Book", sans-serif;
+    font-size: 32px;
+
+}
+.wrapper h4{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-family: "BPG Nino Mkhedruli Book", sans-serif;
+    font-size: 22px;
+}
+.section1{
+    background-color:white;
+    display: flex;
+    height: 50vh;
+    align-items: center;
+}
+.header1{
+    display: flex;
+    align-items: center;
+}
+.wrapper p{
+    font-family: "BPG Nino Mkhedruli Book", sans-serif;
+    font-size: 16px;
+    color:#171717 ;
 }
